@@ -6,10 +6,10 @@ Repositório referente à entrega do projeto pokedex da trilha de JS do bootcamp
 
 Seguindo as aulas, foi montado uma pokedex básica e o desafio proposto era criar os detalhes do pokemon, seja nos próprios cards ou em uma nova página. Eu optei pela segunda opção.
 
-![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+![Screen Preview 1](assets/src/dio-pokedex-1.png "screen preview 1") ![Screen Preview 2](assets/src/dio-pokedex-2.png)
 
 acima pode ser vistos imagens do resultado final dessa nova página, que pode ser acessada clicando no botão "Details" direto do card da pokedex no index.html ou acessando através da url direta do arquivo PokemonDetailPage.html seguido da query string com o id do pokemon desejado, ficando da seguinte forma:
 
+> /PokemonDetailPage.html?id=1
 
-
-
+A página é inteiramente alimentada de forma dinamica através do javascript, desde o fundo, quanto as imagens, informações e botão.
