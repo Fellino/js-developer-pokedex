@@ -1,24 +1,37 @@
-* {
+*{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
-body {
-    background-color: #f6f8fc;
+body{
+    background-color: var(--main-bg-color);
 }
 
-.content {
-    width: 100vw;
-    height: 100vh;
+.content{
     padding: 1rem;
-    background-color: #fff;
+    background-color: var(--white);
+    height: 100vh;
+    width: 100vw;
+}
+
+.content h1{
+    margin: 0;
 }
 
 @media screen and (min-width: 992px) {
-    .content {
+    .content{
         max-width: 992px;
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
     }
+}
+
+:root{
+    --button-color: #6c79db;
+    --main-bg-color: #f6f8fc;
+    --pokemon-bg-color: #49d0b0;
+    --types-bg-color: #61e1ca;
+    --white: #fff;
+    --black: #000;
 }
